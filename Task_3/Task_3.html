@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task_3.css">
+</head>
+<body>
+    <div class="main_block">
+        <div class="inp_n_btn">
+            <input class="mess_inp" type="text">
+            <button class="send_btn">Отправить</button>
+            <button class="geo_btn">Гео-локация</button>
+        </div>
+        <div class="cons_output"></div>
+        <div class="mess_screen">
+            <div class="client_message_block">
+                <div class="client_message" style="display: none;">
+                  <a id = "map-link" target="_blank" style="display: none;"></a>
+                </div>
+            </div>
+            <div class="server_message_block">
+                <div class="server_message" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+    <script src="task_3.js"></script>
+</body>
+</html>
